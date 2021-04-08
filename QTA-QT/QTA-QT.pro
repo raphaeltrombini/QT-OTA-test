@@ -1,0 +1,11 @@
+TEMPLATE = app
+
+TARGET = QTA-QT
+
+HEADERS = QTA-QT.h
+
+SOURCES = QTA-QT.cpp
+
+DESTDIR = $$(QMAKE_DESTIDIR)
+
+QT+= core
